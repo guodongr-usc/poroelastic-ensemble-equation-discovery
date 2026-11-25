@@ -1,0 +1,10 @@
+{
+  "generator_archive": "CARC_H050_STD2_500EA_KREF1MD_ONEWELL_UNIFORM48_DIRECT.zip",
+  "case_id": 1,
+  "realization": 27,
+  "seed": 68,
+  "original_realization_001_seed": 42,
+  "original_realization_001_retained": false,
+  "selection": "Realization 027 is the lowest original ID in the 50-member independent CARC archive and is in the 443-member retained seed list.",
+  "fbm_attribution": "The original CARC source credits the embedded generator to FlowSimulation/LogFBM (GaussianRandomFieldCircEmbed, PrefbmCov and FBmGenerator). The original CARC generator ZIP contained no license file."
+}

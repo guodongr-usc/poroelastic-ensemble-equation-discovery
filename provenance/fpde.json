@@ -1,0 +1,53 @@
+{
+  "discovery": "Round 4 training trial 9, selected by the original program. Its equilibrium-IC compatibility check failed.",
+  "release_search": "New local and Slurm searches use a classical Biot initialization calculated from the supplied material properties and training scales. Results from those searches belong to their individual runs.",
+  "initial_forward": "CARC job 6113464, true initial displacements",
+  "forward_run": "CARC job 6935953, frozen Round 4 (trial 9) parameters and observed initial displacements",
+  "config": {
+    "field_weights": [
+      0.5,
+      0.25,
+      0.25
+    ],
+    "ic_weight": 0.5,
+    "ic_tolerance": 0.05,
+    "penalty": 0.0005,
+    "partition": "jha",
+    "seed": 20260922
+  },
+  "selected": {
+    "selected_trial": 9,
+    "selection_is_diagnostic_only": true,
+    "winner": {
+      "loss": 0.16503103080656292,
+      "initial_error": 0.1816879540186623,
+      "initial_compatibility_passed": false,
+      "equations": {
+        "U1": "+1 Q1_anchored_weak[U1_U1_x](order=1.98683480268) +0.4373381598 Q1_anchored_weak[U1_U1_y](order=2) +0.3379040573 Q1_anchored_weak[U1_U2_xy](order=2) -2.615702855 Q1_anchored_weak[U1_P_x](order=1.01992683854) = normalized Q1 gravity load",
+        "U2": "+0.4373381598 Q1_anchored_weak[U2_U2_x](order=2.01807125031) +1 Q1_anchored_weak[U2_U2_y](order=2) +0.9369178608 Q1_anchored_weak[U2_U1_xy](order=2.02643989476) -4.355544571 Q1_anchored_weak[U2_P_y](order=1) = normalized Q1 gravity load"
+      },
+      "fitness_components": {
+        "initial": 0.09084397700933115
+      },
+      "solver": {
+        "initial_mechanics_field_relL2": [
+          0.08078573494193597,
+          0.24391533428808113
+        ]
+      }
+    }
+  },
+  "selection_status": "INITIAL_DISPLACEMENT_NOT_FITTED",
+  "original_forward": {
+    "initial_truth_exact": true,
+    "final_substeps": 16,
+    "grid": 101
+  },
+  "rerun": {
+    "true_state_resets": false,
+    "future_truth_used": false,
+    "solver_info": {
+      "truth_U0_force_residual": 1.4986479417499126
+    }
+  }
+}

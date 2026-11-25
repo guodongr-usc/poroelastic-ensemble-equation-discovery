@@ -1,0 +1,24 @@
+{
+  "gradient_amplitude": 0.1,
+  "ridge": 0.1,
+  "run_branch": "fixed_biot_control",
+  "component_order": [
+    "Ux",
+    "Uy",
+    "P"
+  ],
+  "EA": "one 443-member cleaned ensemble mean",
+  "frame_split": {
+    "fit": "0–38",
+    "temporal_evaluation": "39–48",
+    "selection": "Temporal subset inspected during historical gradient-amplitude comparisons."
+  },
+  "material_rule": "geometric mean permeability at each element, then apply original material law",
+  "integration": "70 backward-Euler updates, 71 internal states, 49 published frames",
+  "CARC_run": "6935953",
+  "published_run_identity": "The ten-column spatial coefficient figure uses the g=0.1 refit. An earlier comparison used g=0.001.",
+  "postprocessing_term_definition": {
+    "source": "experiments/clean443_gradient_ablation_20261021/summarize_sweep.py",
+    "rule": "Norm of fitted coefficient times raw feature times training row weight, over 39 training frames and nodes. Rank the six gradient terms within each equation. Divide by sum of norms across ten columns for reported shares."
+  }
+}
