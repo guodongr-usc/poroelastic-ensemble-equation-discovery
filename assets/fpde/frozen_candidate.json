@@ -1,0 +1,132 @@
+{
+  "mechanics": {
+    "alpha_B": 0.6399902432715322,
+    "g": 2.6157028553186046,
+    "ord_U1_P_x": 1.019926838543526,
+    "ord_U1_U1_x": 1.9868348026844653,
+    "ord_U1_U1_y": 2.0,
+    "ord_U1_U2_xy": 2.0,
+    "ord_U2_P_y": 1.0,
+    "ord_U2_U1_xy": 2.0264398947588327,
+    "ord_U2_U2_x": 2.0180712503073734,
+    "ord_U2_U2_y": 2.0,
+    "r": 0.43733815975695123
+  },
+  "mechanics_active": [],
+  "orders": {
+    "alpha": 0.5219426634644999,
+    "betax": 0.770124576483244,
+    "betay": 0.6533152957688289,
+    "gammax": 1.6561531072322662,
+    "gammay": 1.9875864330968944,
+    "qx": 0.482689080774804,
+    "qy": 0.4978176608366388
+  },
+  "schema": "Q1_ANCHORED_R4_V1",
+  "tree": {
+    "left": {
+      "left": {
+        "left": {
+          "left": null,
+          "node": "P_caputo",
+          "right": null,
+          "type": 2
+        },
+        "node": "+",
+        "right": {
+          "left": {
+            "left": null,
+            "node": 0.13615756005176877,
+            "right": null,
+            "type": 3
+          },
+          "node": "*",
+          "right": {
+            "left": null,
+            "node": "U1_x_time",
+            "right": null,
+            "type": 2
+          },
+          "type": 0
+        },
+        "type": 0
+      },
+      "node": "+",
+      "right": {
+        "left": {
+          "left": {
+            "left": null,
+            "node": 0.08100968863349438,
+            "right": null,
+            "type": 3
+          },
+          "node": "*",
+          "right": {
+            "left": null,
+            "node": "U2_y_time",
+            "right": null,
+            "type": 2
+          },
+          "type": 0
+        },
+        "node": "+",
+        "right": {
+          "left": {
+            "left": null,
+            "node": -1.7574769624013251,
+            "right": null,
+            "type": 3
+          },
+          "node": "*",
+          "right": {
+            "left": null,
+            "node": "P_x_gamma",
+            "right": null,
+            "type": 2
+          },
+          "type": 0
+        },
+        "type": 0
+      },
+      "type": 0
+    },
+    "node": "+",
+    "right": {
+      "left": {
+        "left": {
+          "left": null,
+          "node": -0.5580557611986559,
+          "right": null,
+          "type": 3
+        },
+        "node": "*",
+        "right": {
+          "left": null,
+          "node": "P_y_gamma",
+          "right": null,
+          "type": 2
+        },
+        "type": 0
+      },
+      "node": "+",
+      "right": {
+        "left": {
+          "left": null,
+          "node": -3196.919431654695,
+          "right": null,
+          "type": 3
+        },
+        "node": "*",
+        "right": {
+          "left": null,
+          "node": "Q",
+          "right": null,
+          "type": 2
+        },
+        "type": 0
+      },
+      "type": 0
+    },
+    "type": 0
+  }
+}
