@@ -1,0 +1,84 @@
+{
+  "dataset": "443EA_CLEAN_ICSTRAIN0.1_P_U1_U2.npz",
+  "ensemble_members": 443,
+  "original_members": 500,
+  "conditional_ensemble": true,
+  "screening_rule": {
+    "exclude_if_greater_than": 0.1,
+    "fixed_before_positive_time_reconstruction": true,
+    "observable": "max absolute principal strain at all four Q1 Gauss points at t=0",
+    "rationale": "A transparent permissive screen for the original infinitesimal-strain formulation; 10% is an engineering choice, not a universal material threshold.",
+    "uses_fit_scores": false,
+    "uses_fitted_scores": false,
+    "uses_future_solution_values": false,
+    "uses_heldout_values": false
+  },
+  "filtering_rule": {
+    "exclude_if_greater_than": 0.1,
+    "fixed_before_positive_time_reconstruction": true,
+    "observable": "max absolute principal strain at all four Q1 Gauss points at t=0",
+    "rationale": "A transparent permissive screen for the original infinitesimal-strain formulation; 10% is an engineering choice, not a universal material threshold.",
+    "uses_fit_scores": false,
+    "uses_fitted_scores": false,
+    "uses_future_solution_values": false,
+    "uses_heldout_values": false
+  },
+  "field_names": [
+    "P",
+    "Ux",
+    "Uy"
+  ],
+  "storage_names": [
+    "P_EA",
+    "U1_EA",
+    "U2_EA"
+  ],
+  "units": [
+    "Pa",
+    "m",
+    "m"
+  ],
+  "field_shape": [
+    1,
+    49,
+    10201
+  ],
+  "domain_m": [
+    500,
+    500
+  ],
+  "well_center_xy_m": [
+    225.0,
+    227.5
+  ],
+  "well_source_xy_m": [
+    [
+      225.0,
+      215.0
+    ],
+    [
+      225.0,
+      220.0
+    ],
+    [
+      225.0,
+      225.0
+    ],
+    [
+      225.0,
+      230.0
+    ],
+    [
+      225.0,
+      235.0
+    ],
+    [
+      225.0,
+      240.0
+    ]
+  ],
+  "q_total_m2_s": 6e-05,
+  "absolute_total_fields": true,
+  "reference_subtraction": false,
+  "truth_is_used_only_for_scoring_after_forward": true
+}
