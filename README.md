@@ -18,4 +18,7 @@ Open a notebook and select **Run All**.
 
 Sources are cited in each notebook. The [FPDE license](src/fpde/LICENSE) is included. Redistribution permission for the adapted fBm generator is unconfirmed.
 
+[![DOI](https://zenodo.org/badge/1472198547.svg)](https://doi.org/10.5281/zenodo.24541334)
+
 Guodong Ren · University of Southern California · guodongr@usc.edu
+
